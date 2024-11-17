@@ -1,0 +1,15 @@
+[package]
+name = "puzzlegame_leaderboard_program"
+version = "1.0.0"
+authors = []
+
+[addresses]
+PuzzlegameLeaderboardProgram = '0x0d7ab48846d71a5f1de2f84543d2edb18f1f4ff42b1e959782e6e4a2a65f17c1'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
